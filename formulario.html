@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cadastre - se</title>
+  </head>
+  <body>
+   <center>
+    <h1> <img src="imagens/logo.jpg" width="110" height="110" align='midlde'
+     />Cadastre- se no Café Starbuzz</h1>
+    </center>
+
+    <form action="teste.php" method="get">
+    <label for="nome" > Nome completo*: </label> <br>
+    <input type="text" required placeholder= 'Digite seu nome completo' > </input> </br>
+    <label for= "nascimento" > Data de nascimento*: </label> <br> 
+    <input type="text" required placeholder='dd/mm/aaaa' > </input> </br>
+    <label for="email"placeholder='Digite seu email'> Digite seu email*: </label> <br>   
+   <input type="text" required > </input> </br>
+
+   <fieldset>
+    <legend> Sexo </legend>
+  <br>
+    <input type="radio" required name='genero'/> Feminino </input>
+    <input type="radio" required  name= 'genero'/> Masculino </input>
+   </br>
+   </fieldset>
+    <br>
+    <legend> Café Preferido> </legend>
+    <select name='cafe preferido'>
+    <option value = "Mistura da casa" > Mistura da casa </option>
+    <option value = "Cafe arábico" > Café Arábico  </option>  
+    </select> 
+    </br>
+   
+    <br>
+    <label for= "hora que toma café"> Você toma café...</label> <br>
+    <input type= "checkbox" name="hora"/> Manhã
+    <input type= "checkbox" name="hora"/> Tarde
+    <input type= "checkbox" name="hora"/> Noite 
+  </input>
+    </br>
+
+    <br>
+    <textarea name= 'comentario'> Deixe seu comentário </textarea>
+    </br>
+
+    <br>
+    <label name='quer receber novidades por email'> Deseja receber novidades por email
+    <input type='checkbox' name='sim'>
+    </br>
+
+    <br>
+    <input type=submit value=" enviar" />
+    <input type=reset value= "limpar"/> 
+    </br>
+  </form>
+<a href= 'index.html'> voltar ao início </a>
+  </body>
+</html>
